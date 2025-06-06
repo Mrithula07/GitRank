@@ -1,12 +1,42 @@
-# React + Vite
+# 🚀 GitRank – GitHub Explorer for Placement Prep
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GitRank is a sleek and minimal GitHub Explorer built with React + Tailwind CSS. It helps students explore high-quality GitHub repositories focused on:
 
-Currently, two official plugins are available:
+- 📚 DSA & CP Practice
+- 🏗️ System Design
+- 🌐 Web Development
+- 🤖 Machine Learning
+- 🏢 Company-Specific Repos (Amazon, Google, etc.)
+- 🎯 Internship & FAANG Prep
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔍 **Smart Search Bar** – Search GitHub repositories by keyword
+- 🏷️ **Tag-Based Filters** – One-click filters for topics like DSA, ML, Google, Internships, etc.
+- ⭐ **GitHub API Integration** – Fetches real-time trending and popular repos
+- 📃 **Repo Cards** – With stars, forks, language, and direct GitHub links
+- 🎒 **Watchlist** – Add repositories to your personal watchlist *(Firebase/Appwrite planned for future storage)*
+- 📩 **Contact Form** – Styled contact page with submission confirmation
+- 🌙 **Dark Mode** – Custom Tailwind-based dark theme
+
+---
+
+## 🧰 Tech Stack
+
+- **Frontend**: React, Vite, React Router DOM
+- **Styling**: Tailwind CSS
+- **API**: GitHub REST API
+- **Deployment**: Netlify
+- *(Firebase/Clerk planned for future auth)*
+
+---
+
+## 🛠️ Setup Locally
+
+```bash
+git clone https://github.com/<your-username>/gitrank.git
+cd gitrank
+npm install
+npm run dev
