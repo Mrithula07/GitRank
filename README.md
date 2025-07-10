@@ -8,7 +8,8 @@ GitRank is a sleek and minimal GitHub Explorer built with React + Tailwind CSS. 
 - 🤖 Machine Learning
 - 🏢 Company-Specific Repos (Amazon, Google, etc.)
 - 🎯 Internship & FAANG Prep
-
+  
+[🔗 Live App](https://prepwithgit.netlify.app/) 
 ---
 
 ## ✨ Features
